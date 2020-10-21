@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Foodie's Heaven`,
-    description: `A dummy site belongs to Studio T showcasing a full ecommerce features`,
+    description: `A dummy site belongs to Studio T showcasing complete ecommerce features`,
     author: `Turjo`,
   },
   plugins: [
