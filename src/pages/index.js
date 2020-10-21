@@ -1,5 +1,5 @@
 import React from "react"
-import { Link,graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Menu from "../components/Home/Menu"
@@ -7,12 +7,12 @@ import Products from '../components/Home/Products'
 import Contact from '../components/Home/Contact'
 import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroudSection"
-import Info from "../components/Home/info"
+
 
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <BackgroundSection img={data.img.childImageSharp.fluid} title="regular joe's"
+    <BackgroundSection img={data.img.childImageSharp.fluid} title="Foodie's Heaven"
       styleClass="default-background" />
    
     <Menu items={data.menu}/>
@@ -24,7 +24,7 @@ const IndexPage = ({ data }) => (
 export  const query = graphql`
 {
   
-  img: file(relativePath: {eq: "default-background.jpeg"}) {
+  img: file(relativePath: {eq: "default-background.jpg"}) {
     childImageSharp {
       fluid {
         ...GatsbyImageSharpFluid

@@ -1,5 +1,5 @@
 import React from "react"
-import { Link,graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 
@@ -21,7 +21,7 @@ const AboutPage = ({ data }) => (
 export  const query = graphql`
 {
   
-  img: file(relativePath: {eq: "about-background.jpeg"}) {
+  img: file(relativePath: {eq: "restaurant_about.jpg"}) {
     childImageSharp {
       fluid {
         ...GatsbyImageSharpFluid_tracedSVG

@@ -19,7 +19,7 @@ export default function info() {
                             like Aldus PageMaker including versions of Lorem Ipsum.
                         </p>
                         <Link to="/">
-                           <button className="btn text-uppercase btn-yellow">home page</button>
+                           <button className="btn text-uppercase btn-crimson">home page</button>
                         </Link>
                     </div>
                 </div>

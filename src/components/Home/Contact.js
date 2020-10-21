@@ -43,7 +43,7 @@ export default function Contact() {
             </div>
             <button
               type="submit"
-              className="btn btn-yellow btn-block text-capitalize mt-5"
+              className="btn btn-crimson btn-block text-capitalize mt-5"
             >
               SUBMIT
             </button>
