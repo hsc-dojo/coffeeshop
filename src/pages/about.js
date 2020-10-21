@@ -21,7 +21,7 @@ const AboutPage = ({ data }) => (
 export  const query = graphql`
 {
   
-  img: file(relativePath: {eq: "restaurant_about.jpg"}) {
+  img: file(relativePath: {eq: "platter.jpg"}) {
     childImageSharp {
       fluid {
         ...GatsbyImageSharpFluid_tracedSVG
