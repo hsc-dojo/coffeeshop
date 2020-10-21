@@ -18,8 +18,8 @@ export default function info() {
                             and more recently with desktop publishing software 
                             like Aldus PageMaker including versions of Lorem Ipsum.
                         </p>
-                        <Link to="/about/">
-                           <button className="btn text-uppercase btn-yellow">about page</button>
+                        <Link to="/">
+                           <button className="btn text-uppercase btn-yellow">home page</button>
                         </Link>
                     </div>
                 </div>
