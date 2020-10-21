@@ -3,7 +3,7 @@ import { Link,graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Menu from "../components/Home/Menu"
-
+import Products from '../components/Home/Products'
 import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroudSection"
 import Info from "../components/Home/info"
@@ -15,7 +15,7 @@ const IndexPage = ({ data }) => (
       styleClass="default-background" />
     <Info />
     <Menu items={data.menu}/>
-    
+    <Products/>
   </Layout>
 )
 
@@ -41,7 +41,7 @@ export  const query = graphql`
         price
         category
         image {
-          fixed(width:50,height:50){
+          fixed(height:50){
             ...GatsbyContentfulFixed
           }
         }
